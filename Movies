@@ -1,0 +1,12 @@
+<?php
+$movies = [
+    '1981'=>'Raiders of the Lost Ark',
+    '1989'=>'Indiana Jones and the Last Crusade',
+    '2008'=>'Indiana Jones and the Kingdom of the Crystal Skull (but this movie shouldn\'t exist)',
+    '1984'=>'Indiana Jones and the Temple of Doom',
+];
+ksort($movies);
+foreach($movies as $key => $movie){
+    echo $key, ' - ', $movie, '<br>';
+    }
+?>
