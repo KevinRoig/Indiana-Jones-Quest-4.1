@@ -6,7 +6,7 @@ $movies = [
     '1984'=>'Indiana Jones and the Temple of Doom',
 ];
 ksort($movies);
-foreach($movies as $key => $movie){
-    echo $key, ' - ', $movie, '<br>';
+foreach($movies as $date => $movie){
+    echo $date, ' - ', $movie, '<br>';
     }
 ?>
